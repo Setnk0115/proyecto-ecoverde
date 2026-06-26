@@ -43,13 +43,13 @@ Comando ejecutado:
 git log --oneline
 ```
 
-> [Historial de commits](img/semana5/image2.png)
+> ![Historial de commits](img/semana5/image2.png)
 
 ---
 
 ## Evidencia 4 - Página web institucional
 
-> [Página web](img/semana5/image3.png)
+> ![Página web](img/semana5/image3.png)
 
 ---
 
@@ -61,7 +61,7 @@ Comando ejecutado:
 docker images
 ```
 
-> [Imagen Docker](img/semana5/image5.png)
+> ![Imagen Docker](img/semana5/image5.png)
 
 ---
 
@@ -73,11 +73,11 @@ Comando ejecutado:
 docker ps
 ```
 
-> [Contenedor en ejecución](img/semana5/image6.png)
+> ![Contenedor en ejecución](img/semana5/image6.png)
 
 
 
-> [Contenedor en ejecución](img/semana5/image7.png)
+> ![Contenedor en ejecución](img/semana5/image7.png)
 
 ---
 
@@ -89,9 +89,9 @@ Comando ejecutado:
 docker volume ls
 ```
 
-> [Volumen Docker](img/semana5/image8.png)
+> ![Volumen Docker](img/semana5/image8.png)
 
-> [Volumen Docker](img/semana5/image9.png)
+> ![Volumen Docker](img/semana5/image9.png)
 
 ---
 
@@ -103,9 +103,9 @@ Comando ejecutado:
 docker inspect ecoverde-web
 ```
 
-> [red](img/semana5/image10.png)
+> ![red](img/semana5/image10.png)
 
-> [red](img/semana5/image11.png)
+> ![red](img/semana5/image11.png)
 ---
 
 ## Evidencia 9 - Docker Compose
@@ -116,7 +116,7 @@ Comando ejecutado:
 docker compose ps
 ```
 
-> [compose](img/semana5/image12.png)
+> ![compose](img/semana5/image12.png)
 
 ---
 
