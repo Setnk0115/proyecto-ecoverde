@@ -1,0 +1,25 @@
+name: Generar Artifact
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  artifact:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Crear carpeta
+        run: mkdir salida
+
+      - name: Generar archivo
+        run: echo "Proyecto EcoVerde - GitHub Actions" > salida/informe.txt
+
+      - name: Subir artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: informe-ecoverde
+          path: salida/informe.txt
