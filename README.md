@@ -1,36 +1,77 @@
-# EcoVerde Antioquia S.A.S.
+# Proyecto EcoVerde
 
-Proyecto desarrollado para el componente de DevOps, en el cual se implementan buenas prácticas de control de versiones con Git y el uso de Docker para la contenerización de una aplicación web institucional.
+Proyecto desarrollado como evidencia de aprendizaje durante el curso, aplicando Docker, Docker Compose, Git y GitHub, GitHub Actions y buenas prácticas para despliegue en producción.
 
-## Tecnologías utilizadas
+---
+
+# Tecnologías utilizadas
 
 - HTML5
 - CSS3
-- Git
-- GitHub
 - Docker
 - Docker Compose
-- Nginx
+- Git
+- GitHub
+- GitHub Actions
+- Python
 
-## Estructura del proyecto
+---
+
+# Estructura del proyecto
 
 ```text
 proyecto-ecoverde/
-│
 ├── app/
 ├── evidencias/
+│   ├── README5.md
+│   ├── README6.md
+│   ├── README7.md
+│   ├── README8.md
+│   └── img/
+├── semana8_docker_produccion/
 ├── Dockerfile
 ├── compose.yml
-├── .gitignore
+├── .github/
 └── README.md
 ```
 
-## Objetivo
+---
 
-Implementar una página web institucional dentro de un contenedor Docker, administrando imágenes, contenedores, volúmenes, redes y Docker Compose como parte del proceso de aprendizaje en DevOps.
+# Evidencias desarrolladas
 
-## Autor
+## Semana 5
+
+Se implementó la estructura inicial del proyecto utilizando Docker y Docker Compose.
+
+**Documento:** `evidencias/README5.md`
+
+---
+
+## Semana 6
+
+Se aplicó un flujo de trabajo basado en ramas utilizando Git y GitHub para desarrollar nuevas funcionalidades.
+
+**Documento:** `evidencias/README6.md`
+
+---
+
+## Semana 7
+
+Se implementó integración continua mediante GitHub Actions utilizando distintos workflows para automatizar tareas del proyecto.
+
+**Documento:** `evidencias/README7.md`
+
+---
+
+## Semana 8
+
+Se desarrolló un laboratorio orientado a producción utilizando Docker, implementando buenas prácticas como Docker Secrets, Healthcheck, volúmenes persistentes y un usuario sin privilegios.
+
+**Documento:** `evidencias/README8.md`
+
+---
+
+# Autor
 
 Sebastián Ramírez Castrillón
-Juan Sebastian Ramirez Velez
-David Alejandro 
+Ficha 3169892
