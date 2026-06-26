@@ -1,0 +1,16 @@
+services:
+  web:
+    image: ecoverde:v1
+    container_name: ecoverde-compose
+    ports:
+      - "8080:80"
+    volumes:
+      - ecoverde-data:/usr/share/nginx/html
+    networks:
+      - ecoverde-net
+
+volumes:
+  ecoverde-data:
+
+networks:
+  ecoverde-net:
